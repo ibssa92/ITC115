@@ -16,8 +16,7 @@ public abstract class Library implements Printable {
 	
 	// implement toString
 	public String toString() {
-		return ("Item No: " + itemNumber + "\n Reserved: " + this.isReserve() + "\n Checked out: " + 
-					this.isBorrowStatus() + "\n Item type: " + itemType + "\n Item Title: " + itemTitle);
+		return ("Item No: " + itemNumber + "\n Reserved: " + this.isReserve() + "\n Checked out: " + this.isBorrowStatus() + "\n Item type: " + itemType + "\n Item Title: " + itemTitle);
 	}
   
 //check availability 
