@@ -19,7 +19,7 @@ public abstract class Library implements Printable {
 		return ("Item No: " + itemNumber + "\n Reserved: " + this.isReserve() + "\n Checked out: " + this.isBorrowStatus() + "\n Item type: " + itemType + "\n Item Title: " + itemTitle);
 	}
   
-//check availability 
+	//check availability 
 	public boolean isReserve() {
 		return reserve;
 	}
